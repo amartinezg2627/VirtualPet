@@ -72,6 +72,12 @@ public class VirtualPet {
         }
     }
 
+    // 6.- Bailar
+    public void bailar() {
+        System.out.println(this.name + " está bailando un mambo! 💃🕺");
+        this.energy -= 10;
+    }
+
     // 5.- Atacar al dummy varias veces
     public void attack(VirtualPet dummy, int times) {
         for (int i = 1; i <= times; i++) {
